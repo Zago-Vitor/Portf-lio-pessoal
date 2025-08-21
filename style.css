@@ -11,8 +11,9 @@ p.intro {
     padding: 20px;
 }
 .menu-links {
+    border: 0.1cm solid #000;
     list-style: none;
-    padding: 0;
+    padding: 2%;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -33,4 +34,14 @@ p.intro {
     .intro {
         font-size: 1em;
     }
+}
+p.marca {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 8px 0;
 }
