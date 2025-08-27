@@ -15,17 +15,22 @@ p.intro {
     font-size: 20px;
     padding: 20px;
 }
-.menu-links {
+ul.menu-links {
+    color: black;
+    text-decoration: none;
     border: 0.1cm solid #000;
     list-style: none;
     padding: 2%;
     display: flex;
     justify-content: center;
     gap: 30px;
+    
 }
 .menu-links li{
+    text-decoration: none;
     display: inline;
-    font-size: 20px;
+    font-size: 30px;
+
 }
 @media (max-width: 600px) {
     .menu-links {
@@ -49,4 +54,36 @@ p.marca {
     font-size: 14px;
     margin: 0;
     padding: 8px 0;
+}
+p.info {
+    font-size: 20px;
+    text-align: center;
+}
+div.formulario {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 1%;
+}
+label {
+    font-size: 20px;
+}
+textarea {
+    width: 30%;
+}
+a.forms {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: black;
+    text-decoration: none;
 }
