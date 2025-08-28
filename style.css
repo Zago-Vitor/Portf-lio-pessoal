@@ -3,7 +3,9 @@ body{
     margin: 0px;
 }
 main {
-    margin: 1.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
 h1 {
@@ -26,11 +28,41 @@ ul.menu-links {
     gap: 30px;
     
 }
+.paginas-site {
+    list-style: none;
+    padding: 0;
+    margin: 15px auto;
+    margin-top: 0px;
+    max-width: 800px;
+}
+.paginas-site li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.paginas-site a {
+    font-size: 1.2em;
+    color: #222;
+    text-decoration: underline;
+}
 .menu-links li{
     text-decoration: none;
     display: inline;
     font-size: 30px;
 
+}
+.paginas-site span {
+    display: block;
+    margin-top: 2px;
+    color: #555;
+    font-size: 1em;
+}
+.oquevera {
+    font-size: 18px;
+    margin-top: 0px;
+    text-align: center;
 }
 @media (max-width: 600px) {
     .menu-links {
@@ -56,20 +88,17 @@ p.marca {
     padding: 8px 0;
 }
 p.info {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
+    width: 100%;
 }
+
 div.formulario {
     text-align: center;
     margin-top: 20px;
     padding-top: 1%;
 }
-label {
-    font-size: 20px;
-}
-textarea {
-    width: 30%;
-}
+
 a.forms {
     font-size: 20px;
     text-align: center;
@@ -86,4 +115,40 @@ a.forms {
 a {
     color: black;
     text-decoration: none;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 1%;
+}
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+.formulario label,
+.formulario input,
+.formulario textarea,
+.formulario button {
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+.formulario label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+input {
+    width: 30%;
+    height: 25px;
+    font-size: 16px;
 }
